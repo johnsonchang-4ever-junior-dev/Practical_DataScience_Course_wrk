@@ -1,0 +1,44 @@
+Dataset Name: Hotel Booking Data  
+Time Period Covered: 2015-2017  
+
+
+
+The dataset contains the following columns:  
+
+| Column Name            | Description                                      |
+|------------------------|--------------------------------------------------|
+|`agent`                 | ID of the travel agency that made the booking
+|`company`           | ID of the company making the booking
+|`reservation_status`               | Final status of the booking (e.g., Check-Out, Canceled)
+|`reservation_status_date`               | Date when the reservation status was last updated
+| `hotel`               | Type of hotel (e.g., Resort Hotel, City Hotel)   |
+| `is_canceled`         | Booking cancellation status (0 = No, 1 = Yes)    |
+| `lead_time`           | Number of days before arrival when booking was made |
+| `arrival_date_year`   | Year of arrival                                  |
+| `arrival_date_month`  | Month of arrival                                 |
+| `arrival_date_week_number` | Week number of the year for arrival         |
+| `arrival_date_day_of_month` | Day of the month for arrival               |
+| `stays_in_weekend_nights` | Number of weekend nights (Saturday & Sunday) |
+| `stays_in_week_nights` | Number of weekday nights (Monday–Friday)        |
+| `adults`              | Number of adults in the booking                  |
+| `children`            | Number of children in the booking                |
+| `babies`              | Number of babies in the booking                  |
+| `meal`               | Type of meal plan                                 |
+| `country`            | Country of origin of the customer                 |
+| `market_segment`     | Distribution channel for the booking              |
+| `distribution_channel` | Booking channel (e.g., Direct, Corporate)      |
+| `is_repeated_guest` | Indicates if the customer is a returning guest (0 = No, 1 = Yes) |
+| `previous_cancellations` | Number of previous cancellations by the guest |
+| `previous_bookings_not_canceled` | Number of previous successful bookings |
+| `reserved_room_type` | Type of room reserved                            |
+| `assigned_room_type` | Type of room assigned                            |
+| `booking_changes` | Number of modifications to the booking             |
+| `deposit_type` | Type of deposit (No Deposit, Refundable, Non Refundable) |
+| `days_in_waiting_list` | Number of days the booking was on the waiting list |
+| `customer_type` | Type of customer (e.g., Transient, Contract)         |
+| `adr` | Average Daily Rate (Revenue per available room)                 |
+| `required_car_parking_spaces` | Number of car parking spaces requested |
+| `total_of_special_requests` | Total number of special requests made      |
+
+
+

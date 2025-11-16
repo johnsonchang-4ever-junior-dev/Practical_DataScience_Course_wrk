@@ -1,0 +1,8 @@
+Dataset Link: https://archive.ics.uci.edu/dataset/1104/drug_induced_autoimmunity_prediction
+
+This dataset comprises molecular descriptors generated using RDKit, specifically curated for the study of drug-induced autoimmunity through ensemble machine learning approaches. It is divided into a training set and a testing set, containing numerical features that represent molecular properties and structural characteristics of drugs. The dataset supports predictive modeling tasks aimed at identifying potential autoimmune risks associated with drug candidates. These molecular descriptors include physicochemical properties, providing a comprehensive foundation for machine learning analysis. The dataset facilitates the development of interpretable models for drug toxicity prediction, contributing to advancements in computational toxicology and drug safety assessment.
+
+Class Labels
+
+1: DIA-positive drugs
+0: DIA-negative drugs
